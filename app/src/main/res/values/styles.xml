@@ -1,0 +1,112 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="font">@font/sans_medium</item>
+        <item name="fontFamily">@font/sans_regular</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/colorBlack</item>
+        <item name="android:textViewStyle">@style/SansTextViewStyle</item>
+        <item name="android:buttonStyle">@style/SansButtonStyle</item>
+
+    </style>
+
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="font">@font/sans_medium</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/colorBlack</item>
+        <item name="android:textViewStyle">@style/SansTextViewStyle</item>
+        <item name="android:buttonStyle">@style/SansButtonStyle</item>
+
+
+    </style>
+
+
+    <style name="CustomAppTheme" parent="BaseAppTheme">
+        <item name="fontFamily">@font/sans_regular</item>
+        <item name="font">@font/sans_regular</item>
+        <item name="android:navigationBarColor">@color/colorBlack</item>
+        <item name="android:textViewStyle">@style/SansTextViewStyle</item>
+        <item name="android:buttonStyle">@style/SansButtonStyle</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@android:color/darker_gray</item>
+    </style>
+
+    <style name="DmSansRegular">
+        <item name="fontFamily">@font/sans_regular</item>
+        <item name="android:fontFamily">@font/sans_regular</item>
+    </style>
+
+    <style name="DmSansBold">
+        <item name="fontFamily">@font/sans_bold</item>
+        <item name="android:fontFamily">@font/sans_bold</item>
+    </style>
+
+    <style name="DmSansMedium">
+        <item name="fontFamily">@font/sans_medium</item>
+        <item name="android:fontFamily">@font/sans_medium</item>
+    </style>
+
+    <style name="SansTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/sans_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SansButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/sans_regular</item>
+
+    </style>
+
+
+    <style name="BaseTextViewStyle" parent="Widget.AppCompat.TextView">
+
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="BaseS1" parent="BaseTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/sans_bold</item>
+    </style>
+
+    <style name="BaseS2" parent="DmSansMedium">
+
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="BaseS3" parent="BaseS1">
+        <item name="android:textSize">16dp</item>
+        <item name="fontFamily">@font/sans_medium</item>
+        <item name="android:fontFamily">@font/sans_medium</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="BaseS4" parent="BaseS3">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">18dp</item>
+        <item name="fontFamily">@font/sans_bold</item>
+        <item name="android:fontFamily">@font/sans_bold</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="NavAppearence.Style" parent="Widget.Design.NavigationView">
+        <item name="android:itemTextAppearance">@font/sans_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="TextAppearance.AppCompat.Medium" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/sans_medium</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

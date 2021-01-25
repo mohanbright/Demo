@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="items"
+            type="com.app.demoproject.dataModal.HomeDataModal" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp">
+
+        <ImageView
+            android:id="@+id/iv_recipe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:scaleType="fitCenter"
+            tools:src="@drawable/orange" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linear_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha=".8"
+                android:padding="10dp"
+                android:background="@color/colorBlack"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/DmSansMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@{items.name}"
+                    android:textColor="@color/colorPrimaryDark"
+                    tools:text="@string/app_name" />
+
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical|right"
+                    android:padding="5dp"
+                    android:text="@{`Rs.`+items.price}"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/colorAccent"
+                    tools:text="Rs. 100" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

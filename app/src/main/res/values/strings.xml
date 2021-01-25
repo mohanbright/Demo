@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Demo Project</string>
+    <string name="please_enter_your_first_name">Please enter your first name</string>
+    <string name="please_enter_your_last_name">Please enter your last name</string>
+    <string name="please_enter_your_email">Please enter valid email address</string>
+    <string name="please_enter_your_password">"Please enter password "</string>
+    <string name="pass_length">Passwor length must be greater then 6</string>
+    <string name="confirm_password_must_be_same_as_password">"Password did not match "</string>
+    <string name="please_enter_your_register_email">Please enter register email address</string>
+    <string name="emailhint">Enter email here</string>
+    <string name="password">Enter password here</string>
+    <string name="register">Register</string>
+    <string name="firstname_hint">First Name</string>
+    <string name="lastname_hint">Last Name</string>
+    <string name="conf_password">Reenter Password</string>
+    <string name="already_existE">Email already exists</string>
+    <string name="already_exist">Email already exists</string>
+    <string name="dash">Dashboard</string>
+    <string name="product">Products</string>
+    <string name="category">Category</string>
+    <string name="orders">Orders</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>
